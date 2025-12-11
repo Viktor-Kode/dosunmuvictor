@@ -229,7 +229,7 @@ export default function ContactSection() {
             className="space-y-10"
           >
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold">
+              <h3 className="text-3xl font-bold text-white">
                 Connect <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">With Me</span>
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">

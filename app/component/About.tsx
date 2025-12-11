@@ -178,7 +178,7 @@ export default function AboutSection() {
               className="flex flex-wrap gap-4"
             >
               <MotionAnchor // This uses the motion.a component, which correctly handles Framer Motion props on an <a> tag.
-                href="https://drive.google.com/file/d/1uVc4UdYNtI_XuI3obZsax4oaOnjyIeEK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1UGutRaop1QsSejHBbkGF_l4ykm7LlkAO/view?usp=sharing"
                 download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
