@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dosunmu Victor",
-  description: "",
+  description: "Professional web designer and developer creating modern, responsive, SEO-optimized websites that help businesses attract, engage, and convert visitors into paying customers",
 };
 
 export default function RootLayout({
