@@ -414,7 +414,7 @@ export default function ProjectsSection() {
               </motion.a>
 
               <motion.a
-                href="https://drive.google.com/file/d/1hcNBNDgeAhicBX-4OMGE4L7enP4OoizF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1uVc4UdYNtI_XuI3obZsax4oaOnjyIeEK/view?usp=sharing"
                 download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
