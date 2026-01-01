@@ -99,7 +99,7 @@ export default function ProjectsSection() {
         { name: "Tailwind CSS", icon: <SiTailwindcss className="w-5 h-5" /> },
       ],
       image: "/project4.png",
-      liveUrl: "https://score-up-rise-up-9e4l.vercel.app/",
+      liveUrl: "https://apply.scoreupriseup.com/",
       featured: false,
       status: "completed",
     },
