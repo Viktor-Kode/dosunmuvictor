@@ -133,6 +133,21 @@ export default function ProjectsSection() {
       featured: false,
       status: "completed",
     },
+    {
+      id: 7,
+      title: "Fresh Fruit By Ruth",
+      description:
+        "Beautiful responsive website for a resturant. Implemented smooth animations and accessible design.",
+      technologies: [
+        { name: "React", icon: <SiReact className="w-5 h-5" /> },
+        { name: "Framer", icon: <SiFramer className="w-5 h-5" /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss className="w-5 h-5" /> },
+      ],
+      image: "/project7.png",
+      liveUrl: "https://freshfruitbyruth.vercel.app/",
+      featured: true,
+      status: "completed",
+    },
     
   ];
 
