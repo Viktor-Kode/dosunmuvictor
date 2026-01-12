@@ -139,7 +139,7 @@ export default function ProjectsSection() {
       description:
         "Beautiful responsive website for a resturant. Implemented smooth animations and accessible design.",
       technologies: [
-        { name: "React", icon: <SiReact className="w-5 h-5" /> },
+        { name: "Nextjs", icon: <SiReact className="w-5 h-5" /> },
         { name: "Framer", icon: <SiFramer className="w-5 h-5" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="w-5 h-5" /> },
       ],
