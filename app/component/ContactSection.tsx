@@ -119,9 +119,9 @@ export default function ContactSection() {
     setSubmitStatus('idle');
 
     // NOTE: You must ensure your environment variables are correctly set.
-    const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'service_nwn8itj';
-    const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'template_t7v1p78';
-    const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '7vyRc9YT7OttdbuIW';
+    const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'service_nfrv82f';
+    const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'template_mbb6gdc';
+    const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '5FCQfpTQdZ_zD32bN';
 
     try {
       // Send email using EmailJS
