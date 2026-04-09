@@ -246,7 +246,7 @@ export default function HeroSection() {
 
             {/* Description */}
             <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
-              I'm <span className="font-semibold text-cyan-400">Dosunmu Victor</span>, a creative developer & designer focused on building innovative digital solutions with cutting-edge technology and thoughtful design.
+              I'm <span className="font-semibold text-cyan-400">Dosunmu Victor</span>, a full-stack developer focused on building innovative digital solutions with React, Node.js, Express, and MongoDB.
             </p>
 
             {/* CTA Buttons */}

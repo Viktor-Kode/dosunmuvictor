@@ -17,6 +17,9 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiFramer,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 import Image from "next/image";
 
@@ -74,14 +77,16 @@ export default function ProjectsSection() {
     },
     {
       id: 3,
-      title: "StudyHelp Platform",
+      title: "StudyHelpV2",
       description:
-        "Built the entire frontend of the StudyHelp platform. Worked closely with a backend developer to connect UI to server functionality. Implemented dashboards, features, and interactions for both students and teachers.",
+        "Built the full StudyHelpV2 platform end-to-end. Study smarter with AI: turn notes into practice questions, track progress, and stay focused in one place with a complete full-stack architecture.",
       technologies: [
         { name: "React", icon: <SiReact className="w-5 h-5" /> },
         { name: "TypeScript", icon: <SiTypescript className="w-5 h-5" /> },
+        { name: "Node.js", icon: <SiNodedotjs className="w-5 h-5" /> },
+        { name: "Express", icon: <SiExpress className="w-5 h-5" /> },
+        { name: "MongoDB", icon: <SiMongodb className="w-5 h-5" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="w-5 h-5" /> },
-        { name: "Framer", icon: <SiFramer className="w-5 h-5" /> },
       ],
       image: "/project3.png",
       liveUrl: "https://studyhub-seven-eta.vercel.app/",
@@ -135,6 +140,22 @@ export default function ProjectsSection() {
     },
     {
       id: 7,
+      title: "SwiftLink Pro",
+      description:
+        "Collaborated with another full-stack developer to build SwiftLink Pro, a command center that empowers modern businesses with high-converting storefronts, live commerce tools, and professional dispatch management.",
+      technologies: [
+        { name: "React", icon: <SiReact className="w-5 h-5" /> },
+        { name: "Node.js", icon: <SiNodedotjs className="w-5 h-5" /> },
+        { name: "Express", icon: <SiExpress className="w-5 h-5" /> },
+        { name: "MongoDB", icon: <SiMongodb className="w-5 h-5" /> },
+      ],
+      image: "/project7.png",
+      liveUrl: "https://swiftlinkpro.vercel.app/",
+      featured: true,
+      status: "completed",
+    },
+    {
+      id: 8,
       title: "Fresh Fruit By Ruth",
       description:
         "Beautiful responsive website for a resturant. Implemented smooth animations and accessible design.",
@@ -232,7 +253,7 @@ export default function ProjectsSection() {
 
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
             A collection of modern web applications built with cutting-edge
-            frontend technologies
+            frontend and backend technologies
           </p>
         </motion.div>
 

@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa';
 import {
   SiTypescript, SiNextdotjs, SiTailwindcss,
-  SiVercel, SiFramer
+  SiVercel, SiFramer, SiNodedotjs, SiExpress, SiMongodb
 } from 'react-icons/si';
 
 // Define the motion component for the anchor tag to suppress prop warnings
@@ -20,7 +20,7 @@ export default function AboutSection() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-50px" });
 
-  // Frontend-focused tech stack
+  // Full-stack tech stack
   const techStack = [
     { icon: <FaHtml5 />, name: "HTML5", color: "text-orange-500", shadow: "hover:shadow-orange-500/30" },
     { icon: <FaCss3Alt />, name: "CSS3", color: "text-blue-500", shadow: "hover:shadow-blue-500/30" },
@@ -30,6 +30,9 @@ export default function AboutSection() {
     { icon: <SiNextdotjs />, name: "Next.js", color: "text-white", shadow: "hover:shadow-white/30" },
     { icon: <SiTailwindcss />, name: "Tailwind", color: "text-teal-400", shadow: "hover:shadow-teal-400/30" },
     { icon: <SiFramer />, name: "Framer", color: "text-pink-500", shadow: "hover:shadow-pink-500/30" },
+    { icon: <SiNodedotjs />, name: "Node.js", color: "text-green-500", shadow: "hover:shadow-green-500/30" },
+    { icon: <SiExpress />, name: "Express", color: "text-gray-200", shadow: "hover:shadow-gray-300/30" },
+    { icon: <SiMongodb />, name: "MongoDB", color: "text-emerald-500", shadow: "hover:shadow-emerald-500/30" },
     { icon: <FaGitAlt />, name: "Git", color: "text-orange-600", shadow: "hover:shadow-orange-600/30" },
     { icon: <FaFigma />, name: "Figma", color: "text-purple-600", shadow: "hover:shadow-purple-600/30" },
     { icon: <FaFire />, name: "Firebase", color: "text-orange-400", shadow: "hover:shadow-orange-400/30" },
@@ -117,17 +120,17 @@ export default function AboutSection() {
               </h3>
 
               <p className="text-gray-300 text-lg leading-relaxed">
-                A passionate <span className="text-cyan-300 font-semibold">Frontend Developer</span> specializing in
-                creating exceptional digital experiences. I combine technical expertise with creative
-                vision to build solutions that are both beautiful and functional.
+                A passionate <span className="text-cyan-300 font-semibold">Full-Stack Developer</span> specializing in
+                building exceptional digital experiences from frontend to backend. I combine technical
+                expertise with creative vision to deliver solutions that are both beautiful and functional.
               </p>
             </div>
 
             {/* Description Blocks */}
             <div className="space-y-6">
               {[
-                "With expertise in modern technologies like React, Next.js, and TypeScript, I build scalable applications that deliver outstanding user experiences.",
-                "My approach combines innovative thinking with attention to detail, ensuring every project meets the highest standards of quality and performance."
+                "With expertise in React, Next.js, Node.js, Express, and MongoDB, I build scalable full-stack applications that deliver outstanding user experiences.",
+                "My approach combines innovative thinking with attention to detail, ensuring every project is performant, maintainable, and production-ready."
               ].map((text, idx) => (
                 <motion.div
                   key={idx}
